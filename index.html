@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Speedometer / Hız Göstergesi</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.65; margin: 0 auto; max-width: 760px; padding: 32px 20px 80px;
+    color: #1a1f26; background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6ebf2; background: #10141a; }
+    code { background: #1c232c; }
+    hr { border-color: #2a323d; }
+  }
+  h1 { font-size: 1.8rem; margin-bottom: .2em; }
+  h2 { font-size: 1.25rem; margin-top: 2em; }
+  h3 { font-size: 1.05rem; margin-top: 1.6em; }
+  .updated { opacity: .7; font-size: .9rem; }
+  hr { margin: 3em 0; border: 0; border-top: 1px solid #d7dde5; }
+  ul { padding-left: 1.2em; }
+  a { color: #b86e00; }
+  code { background: #f0f3f7; padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  .highlight { border-left: 3px solid #f5a524; padding-left: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Application: <strong>Speedometer</strong> (package <code>com.kont.speedometer</code>)<br>
+Last updated: 17 October 2026</p>
+
+<p>This policy explains what data the Speedometer application handles. It is written to
+match the actual behaviour of the app, not a generic template.</p>
+
+<h2>1. Location — the important part</h2>
+<div class="highlight">
+<p>The app needs your device's location (precise and approximate, from GPS) to measure your
+speed and the distance you travel. <strong>Your location never leaves your device</strong> and
+is never sent to the developer, to advertisers or to anyone else.</p>
+<p>Location is used only:</p>
+<ul>
+  <li>while the app is open on your screen, to show your current speed, and</li>
+  <li>while you are recording a trip that you started yourself with <em>Start recording</em>.
+      During recording the app runs a foreground service of type "location" and shows a
+      permanent notification with your speed and a Stop button. Recording continues while
+      the screen is off or the phone is in your pocket, and it ends when you tap Stop.</li>
+</ul>
+<p>The app does <strong>not</strong> request background location permission. When the app is
+closed and no recording is running, it does not read your location.</p>
+</div>
+
+<h2>2. Data the developer collects</h2>
+<p><strong>None.</strong> The app has no accounts, no sign-in, no servers and no analytics
+belonging to the developer. Nothing you do in the app is sent to the developer.</p>
+
+<h2>3. Data stored on your device</h2>
+<p>The app stores in its own private storage on your phone:</p>
+<ul>
+  <li>your trips: start and end time, distance, duration, average and top speed, time spent
+      above your alert speed, and a thinned-out list of route points (position, time and speed),</li>
+  <li>your settings: unit, profile, alert speed, calibration, chosen gauge, font and colours.</li>
+</ul>
+<p>This data stays on your device. It can leave the device only in these ways, each of
+which you control:</p>
+<ul>
+  <li><strong>Backup file</strong> — when you choose <em>Back up</em>, the app writes a file to
+      a place you pick with Android's file picker (for example your Downloads folder or a cloud
+      drive app). The app does not upload it anywhere by itself.</li>
+  <li><strong>GPX / CSV export</strong> (Pro) — the same: a file is written only where you choose.</li>
+  <li><strong>Android backup</strong> — if Android's own backup is turned on for your Google
+      account, the app's data may be included in your device backup. That backup is managed by
+      Google and is not accessible to the developer.</li>
+</ul>
+
+<h2>4. Maps (OpenFreeMap)</h2>
+<p>When a screen shows a map behind your route, the map images ("tiles") are downloaded from
+<strong>OpenFreeMap</strong> (<code>tiles.openfreemap.org</code>), a free map service operated by
+Hyperknot Software Kft. (Hungary). The map is drawn with the open-source MapLibre library.</p>
+<p>To download tiles, your device sends a normal internet request to OpenFreeMap. Like any
+web request, it contains your device's IP address and identifies the map area being displayed.
+<strong>The app does not send your GPS positions, your trips, any identifier or any personal
+data</strong> to OpenFreeMap. No API key or account is used. According to
+<a href="https://openfreemap.org/privacy/">OpenFreeMap's privacy policy</a>, its access logs do
+not contain IP addresses by default; error logs may contain the IP address and requested URL
+and are deleted after 7 days.</p>
+<p>Without an internet connection the map is not shown, but your route line is still drawn.
+Map data © OpenStreetMap contributors, OpenMapTiles.</p>
+
+<h2>5. Purchases</h2>
+<p>An optional one-time "Pro" purchase is processed entirely by Google Play. The developer
+never sees your payment details. The app only asks Google Play whether the purchase exists,
+so that Pro can be restored on your devices. Pro is not a subscription.</p>
+
+<h2>6. Advertising (Google AdMob)</h2>
+<p>The free version shows a banner advertisement at the bottom of the screen, supplied by
+Google AdMob. A full-screen ad may be shown only after a trip has ended and you have stopped,
+and never while you are moving. You can also choose to watch a rewarded video ad to try Pro
+features for one hour. To serve ads, the Google Mobile Ads SDK may collect and process:</p>
+<ul>
+  <li>advertising identifier (Android Advertising ID) and other device identifiers,</li>
+  <li>approximate location derived from your IP address,</li>
+  <li>device information (model, operating system, language, screen size),</li>
+  <li>ad interaction data (whether an ad was shown, viewed or clicked).</li>
+</ul>
+<p>This processing is carried out by Google under its own terms. See
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information
+from sites or apps that use our services</a> and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+The app does not give your GPS location or your trips to the ad network. Pro users see no ads.</p>
+
+<h3>Consent in the EEA, UK and Switzerland</h3>
+<p>If you are in a region where consent is required, the app shows a Google-certified consent
+screen (Google User Messaging Platform) the first time it runs. You can change your choice at
+any time in <em>Settings → Ad privacy choices</em>. If consent is not given, the app still
+works in full.</p>
+
+<h3>Controlling advertising on your device</h3>
+<p>You can reset or delete your advertising identifier at any time:
+<em>Android Settings → Privacy → Ads</em> (menu names vary by manufacturer).</p>
+
+<h2>7. Permissions</h2>
+<ul>
+  <li><strong>Location (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION)</strong> — speed and
+      distance, only as described in section 1. No background location permission.</li>
+  <li><strong>Foreground service / location (FOREGROUND_SERVICE, FOREGROUND_SERVICE_LOCATION)</strong>
+      — keeps a trip you started recording while the screen is off.</li>
+  <li><strong>Notifications (POST_NOTIFICATIONS)</strong> — the recording notification with the
+      Stop button. On Android 13 and later the app asks once; the app works even if you refuse.</li>
+  <li><strong>Vibration (VIBRATE)</strong> — the speed alert.</li>
+  <li><strong>Internet (INTERNET)</strong> — map tiles (section 4), ads (section 6) and Google Play
+      purchases (section 5). Your location is never sent.</li>
+  <li><strong>Network state (ACCESS_NETWORK_STATE)</strong> — to check whether a connection exists,
+      so the route is drawn without a map when you are offline; also used by the ads and map libraries.
+      The app does <em>not</em> request Wi-Fi state (ACCESS_WIFI_STATE).</li>
+  <li><strong>Advertising ID (com.google.android.gms.permission.AD_ID, ACCESS_ADSERVICES_AD_ID,
+      ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS)</strong> — declared by the Google
+      Mobile Ads SDK (section 6).</li>
+  <li><strong>Keep awake (WAKE_LOCK)</strong> — declared by Google Play services libraries for
+      short background tasks.</li>
+  <li><strong>Billing (com.android.vending.BILLING)</strong> — the one-time Pro purchase via Google Play.</li>
+  <li><strong>com.kont.speedometer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</strong> — an internal
+      Android permission that keeps the app's own messages private to the app; it gives access to nothing.</li>
+</ul>
+<p>The app does not access your camera, microphone, contacts, photos, SMS or call history,
+and it does not draw over other apps.</p>
+
+<h2>8. Children</h2>
+<p>The app is a general-purpose tool and is not directed at children under 13. The developer
+does not knowingly collect any data from children. Ads are limited to content suitable for a
+general audience.</p>
+
+<h2>9. Data deletion</h2>
+<p>Because the developer holds no data about you, there is nothing to request deletion of.
+Inside the app you can delete a single trip (press and hold it in the trip list, or the bin
+button on the trip screen) or all trips at once (<em>Settings → Delete all trips</em>, after a
+confirmation). To remove everything the app stored
+on your device, uninstall it or use
+<em>Settings → Apps → Speedometer → Storage → Clear data</em>. Backup and export files you
+saved yourself stay where you put them until you delete them.</p>
+
+<h2>10. Safety</h2>
+<p>Do not use your phone while driving. The app is for information only and does not replace
+your vehicle's speedometer.</p>
+
+<h2>11. Contact</h2>
+<p>Questions about this policy: <strong>konttechnology@gmail.com</strong></p>
+
+<hr>
+
+<h1>Gizlilik Politikası</h1>
+<p class="updated">Uygulama: <strong>Hız Göstergesi</strong> (paket <code>com.kont.speedometer</code>)<br>
+Son güncelleme: 17 Ekim 2026</p>
+
+<p>Bu politika, Hız Göstergesi uygulamasının hangi verileri işlediğini açıklar. Metin,
+uygulamanın gerçek davranışına göre yazılmıştır.</p>
+
+<h2>1. Konum — en önemli bölüm</h2>
+<div class="highlight">
+<p>Uygulama, hızınızı ve gittiğiniz mesafeyi ölçmek için cihazınızın konumuna (GPS'ten,
+kesin ve yaklaşık) ihtiyaç duyar. <strong>Konumunuz cihazınızdan hiçbir zaman çıkmaz</strong>;
+geliştiriciye, reklam verenlere veya başka birine gönderilmez.</p>
+<p>Konum yalnızca şu durumlarda kullanılır:</p>
+<ul>
+  <li>uygulama ekranınızda açıkken, anlık hızınızı göstermek için,</li>
+  <li><em>Kaydı başlat</em> ile kendiniz başlattığınız bir yolculuk kaydı sürerken. Kayıt
+      sırasında uygulama "konum" türünde bir ön plan hizmeti çalıştırır ve hızınızı ve Durdur
+      düğmesini gösteren kalıcı bir bildirim gösterir. Kayıt, ekran kapalıyken veya telefon
+      cebinizdeyken de sürer; Durdur'a dokunduğunuzda biter.</li>
+</ul>
+<p>Uygulama arka plan konum izni <strong>istemez</strong>. Uygulama kapalıyken ve kayıt
+yokken konumunuzu okumaz.</p>
+</div>
+
+<h2>2. Geliştiricinin topladığı veriler</h2>
+<p><strong>Hiçbiri.</strong> Uygulamada hesap, giriş, sunucu veya geliştiriciye ait analitik
+bulunmaz. Uygulamada yaptığınız hiçbir şey geliştiriciye gönderilmez.</p>
+
+<h2>3. Cihazınızda saklanan veriler</h2>
+<p>Uygulama telefonunuzdaki kendi özel alanında şunları saklar:</p>
+<ul>
+  <li>yolculuklarınız: başlangıç ve bitiş zamanı, mesafe, süre, ortalama ve en yüksek hız,
+      uyarı hızının üstünde geçen süre ve seyreltilmiş rota noktaları (konum, zaman ve hız),</li>
+  <li>ayarlarınız: birim, profil, uyarı hızı, kalibrasyon, seçtiğiniz gösterge, yazı tipi ve renkler.</li>
+</ul>
+<p>Bu veriler cihazınızda kalır. Yalnızca sizin kontrolünüzdeki şu yollarla cihazdan çıkabilir:</p>
+<ul>
+  <li><strong>Yedek dosyası</strong> — <em>Yedekle</em>'yi seçtiğinizde uygulama, Android'in dosya
+      seçicisiyle sizin seçtiğiniz bir yere (ör. İndirilenler klasörü veya bir bulut sürücü
+      uygulaması) bir dosya yazar. Uygulama bu dosyayı kendiliğinden hiçbir yere yüklemez.</li>
+  <li><strong>GPX / CSV dışa aktarma</strong> (Pro) — aynı şekilde: dosya yalnızca sizin seçtiğiniz yere yazılır.</li>
+  <li><strong>Android yedeklemesi</strong> — Google hesabınız için Android'in kendi yedeklemesi
+      açıksa, uygulamanın verileri cihaz yedeğinize dahil olabilir. Bu yedeği Google yönetir;
+      geliştirici erişemez.</li>
+</ul>
+
+<h2>4. Harita (OpenFreeMap)</h2>
+<p>Bir ekranda rotanızın arkasında harita gösterildiğinde, harita görüntüleri ("karolar")
+<strong>OpenFreeMap</strong>'ten (<code>tiles.openfreemap.org</code>) indirilir. OpenFreeMap,
+Hyperknot Software Kft. (Macaristan) tarafından işletilen ücretsiz bir harita hizmetidir.
+Harita, açık kaynaklı MapLibre kitaplığıyla çizilir.</p>
+<p>Karoları indirmek için cihazınız OpenFreeMap'e normal bir internet isteği gönderir. Her web
+isteği gibi bu istek de cihazınızın IP adresini içerir ve görüntülenen harita bölgesini belirtir.
+<strong>Uygulama OpenFreeMap'e GPS konumlarınızı, yolculuklarınızı, herhangi bir kimliği veya
+kişisel veri göndermez.</strong> API anahtarı veya hesap kullanılmaz.
+<a href="https://openfreemap.org/privacy/">OpenFreeMap'in gizlilik politikasına</a> göre erişim
+kayıtları varsayılan olarak IP adresi içermez; hata kayıtları IP adresini ve istenen adresi
+içerebilir ve 7 gün sonra silinir.</p>
+<p>İnternet yokken harita gösterilmez, ancak rota çizginiz yine çizilir.
+Harita verisi © OpenStreetMap katkıcıları, OpenMapTiles.</p>
+
+<h2>5. Satın almalar</h2>
+<p>İsteğe bağlı tek seferlik "Pro" satın alması tamamen Google Play tarafından işlenir.
+Geliştirici ödeme bilgilerinizi hiçbir zaman görmez. Uygulama yalnızca Pro'nun
+cihazlarınızda geri yüklenebilmesi için satın almanın var olup olmadığını Google Play'e sorar.
+Pro bir abonelik değildir.</p>
+
+<h2>6. Reklamlar (Google AdMob)</h2>
+<p>Ücretsiz sürüm, ekranın altında Google AdMob tarafından sağlanan bir banner reklam gösterir.
+Tam ekran reklam yalnızca bir yolculuk bitip durduktan sonra gösterilebilir; hareket halindeyken
+asla gösterilmez. İsterseniz Pro özelliklerini bir saat denemek için ödüllü bir video reklam
+da izleyebilirsiniz. Reklam sunmak için Google Mobile Ads SDK'sı şunları işleyebilir:</p>
+<ul>
+  <li>reklam kimliği (Android Advertising ID) ve diğer cihaz tanımlayıcıları,</li>
+  <li>IP adresinden türetilen yaklaşık konum,</li>
+  <li>cihaz bilgileri (model, işletim sistemi, dil, ekran boyutu),</li>
+  <li>reklam etkileşim verileri (gösterim, görüntüleme, tıklama).</li>
+</ul>
+<p>Bu işleme Google tarafından kendi koşulları kapsamında yapılır:
+<a href="https://policies.google.com/technologies/partner-sites">Google'ın, hizmetlerini
+kullanan sitelerden veya uygulamalardan gelen bilgileri nasıl kullandığı</a> ve
+<a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.
+Uygulama GPS konumunuzu veya yolculuklarınızı reklam ağına vermez. Pro kullanıcılar reklam görmez.</p>
+
+<h3>AEA, Birleşik Krallık ve İsviçre'de onay</h3>
+<p>Onayın gerekli olduğu bir bölgedeyseniz, uygulama ilk açılışta Google onaylı bir izin ekranı
+(Google User Messaging Platform) gösterir. Seçiminizi istediğiniz zaman
+<em>Ayarlar → Reklam gizlilik seçenekleri</em> bölümünden değiştirebilirsiniz. Onay vermeseniz
+de uygulama tam olarak çalışır.</p>
+
+<h3>Cihazınızda reklam kontrolü</h3>
+<p>Reklam kimliğinizi istediğiniz zaman sıfırlayabilir veya silebilirsiniz:
+<em>Android Ayarları → Gizlilik → Reklamlar</em> (menü adları üreticiye göre değişebilir).</p>
+
+<h2>7. İzinler</h2>
+<ul>
+  <li><strong>Konum (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION)</strong> — hız ve mesafe,
+      yalnızca 1. bölümde anlatıldığı gibi. Arka plan konum izni yoktur.</li>
+  <li><strong>Ön plan hizmeti / konum (FOREGROUND_SERVICE, FOREGROUND_SERVICE_LOCATION)</strong>
+      — başlattığınız kaydın ekran kapalıyken sürmesi.</li>
+  <li><strong>Bildirimler (POST_NOTIFICATIONS)</strong> — Durdur düğmeli kayıt bildirimi. Android 13
+      ve sonrasında bir kez sorulur; izin vermeseniz de uygulama çalışır.</li>
+  <li><strong>Titreşim (VIBRATE)</strong> — hız uyarısı.</li>
+  <li><strong>İnternet (INTERNET)</strong> — harita karoları (4. bölüm), reklamlar (6. bölüm) ve
+      Google Play satın alma (5. bölüm). Konumunuz hiçbir zaman gönderilmez.</li>
+  <li><strong>Ağ durumu (ACCESS_NETWORK_STATE)</strong> — bağlantı olup olmadığına bakmak için; bağlantı
+      yoksa rota haritasız çizilir. Reklam ve harita kitaplıkları da kullanır. Uygulama Wi-Fi durumu
+      iznini (ACCESS_WIFI_STATE) <em>istemez</em>.</li>
+  <li><strong>Reklam kimliği (com.google.android.gms.permission.AD_ID, ACCESS_ADSERVICES_AD_ID,
+      ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS)</strong> — Google Mobile Ads SDK'sı
+      tarafından bildirilir (6. bölüm).</li>
+  <li><strong>Uyanık tutma (WAKE_LOCK)</strong> — Google Play hizmetleri kitaplıklarınca kısa arka
+      plan işleri için bildirilir.</li>
+  <li><strong>Satın alma (com.android.vending.BILLING)</strong> — Google Play üzerinden tek seferlik Pro satın alımı.</li>
+  <li><strong>com.kont.speedometer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</strong> — uygulamanın kendi
+      iç mesajlarını başka uygulamalara kapatan Android iç iznidir; hiçbir veriye erişim vermez.</li>
+</ul>
+<p>Uygulama kameranıza, mikrofonunuza, kişilerinize, fotoğraflarınıza, SMS veya arama
+geçmişinize erişmez ve diğer uygulamaların üzerinde pencere açmaz.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Uygulama genel amaçlı bir araçtır ve 13 yaş altı çocuklara yönelik değildir. Geliştirici
+bilerek çocuklardan hiçbir veri toplamaz. Reklamlar genel izleyiciye uygun içerikle sınırlıdır.</p>
+
+<h2>9. Verilerin silinmesi</h2>
+<p>Geliştirici sizinle ilgili hiçbir veri tutmadığı için silinmesini isteyebileceğiniz bir veri
+yoktur. Uygulama içinden tek bir yolculuğu (listede yolculuğa basılı tutarak ya da yolculuk
+ekranındaki çöp kutusu düğmesiyle) veya onay vererek tüm yolculukları birden
+(<em>Ayarlar → Tüm yolculukları sil</em>) silebilirsiniz. Uygulamanın
+cihazınızda sakladığı her şeyi silmek için uygulamayı kaldırın veya
+<em>Ayarlar → Uygulamalar → Hız Göstergesi → Depolama → Verileri temizle</em> yolunu kullanın.
+Kendi kaydettiğiniz yedek ve dışa aktarma dosyaları, siz silene kadar koyduğunuz yerde kalır.</p>
+
+<h2>10. Güvenlik</h2>
+<p>Sürüş sırasında telefonunuzu kullanmayın. Uygulama bilgi amaçlıdır; aracınızın göstergesinin
+yerine geçmez.</p>
+
+<h2>11. İletişim</h2>
+<p>Bu politika hakkında sorular: <strong>konttechnology@gmail.com</strong></p>
+
+</body>
+</html>
